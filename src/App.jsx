@@ -1,6 +1,39 @@
 import './App.css'
+import {useState} from "react";
 
 function App() {
+  const [selectedFile, setSelectedFile] = useState(null);
+  const [uploadStatus, setUploadStatus] = useState('');
+
+  const handleFileChange = (event) => {
+    setSelectedFile(event.target.files[0]);
+  };
+
+  const handleFileUpload = async () => {
+    if (!selectedFile) {
+      alert("Please select a file first!");
+      return;
+    }
+    const formData = new FormData();
+    formData.append('files', selectedFile);
+
+    try {
+      const response = await fetch('http://localhost:8080/upload', {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (response.ok) {
+        setUploadStatus('File uploaded successfully.');
+      } else {
+        setUploadStatus('File upload failed.');
+      }
+    } catch (error) {
+      console.error('Upload error:', error);
+      setUploadStatus('An error occurred while uploading the file.');
+    }
+  };
+
 
   return (
     <div className={"container"}>
@@ -8,18 +41,31 @@ function App() {
         <h1>Job Tracker</h1>
       </div>
 
-      <div className={"w-100 d-flex align-items-center justify-content-center pt-5 mt-5"}>
-        <div className={"innerContainer w-50 d-flex flex-column align-items-center justify-content-center"}>
-          <h3 className={"mb-5"}>Start with upload a json file</h3>
-          <div className={"w-100 d-flex flex-column align-items-center justify-content-between mb-5"}>
-            <p>if you don't have the json file example, you can download it here</p>
-            <a href={`./example.json`} download>
+      <div className="w-100 d-flex align-items-center justify-content-center pt-5 mt-5">
+        <div className="innerContainer w-50 d-flex flex-column align-items-center justify-content-center">
+          <h3 className="mb-5">Start with upload a json file</h3>
+          <div className="w-100 d-flex flex-column align-items-center justify-content-between mb-5">
+            <p>If you don't have the json file example, you can download it here</p>
+            <a href="./example.json" download>
               <button className="btn btn-primary">Download</button>
             </a>
           </div>
           <div className="mb-3">
-            <input className="form-control" type="file" id="formFile"/>
+            <input
+                className="form-control"
+                type="file"
+                id="formFile"
+                onChange={handleFileChange}
+            />
           </div>
+          <button
+              type="button"
+              className="btn btn-primary"
+              onClick={handleFileUpload}
+          >
+            Upload File
+          </button>
+          {uploadStatus && <p>{uploadStatus}</p>}
         </div>
       </div>
 
