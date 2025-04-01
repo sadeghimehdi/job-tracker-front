@@ -1,0 +1,17 @@
+.innerContainer {
+  border-radius: 15px;
+  border: 1px chocolate solid;
+  padding: 20px;
+}
+
+.resultsContainer {
+  border-radius: 15px;
+  border: 1px chocolate solid;
+  padding: 20px;
+}
+
+.resultItem {
+  border-radius: 15px;
+  border: 1px chocolate solid;
+  padding: 20px;
+}
