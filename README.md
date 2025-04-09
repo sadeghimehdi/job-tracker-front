@@ -86,11 +86,11 @@ You can configure Vite further via vite.config.js or vite.config.ts.
 
 Now that your project is set up, you can start building your React application! Check out the Vite documentation for advanced configurations.
 
-## Next Steps
+# Launch the project
 
-First tiem laucnh.
 To run the project for the first time, you will need to run the following command. 
 NPM install.
-then vite
+then
+vite
 
 After that you should be able to run the project. 
