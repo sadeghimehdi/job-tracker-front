@@ -374,7 +374,7 @@ function App() {
             <h3 className="mb-5">Start with uploading a JSON file</h3>
             <div className="w-100 d-flex align-items-center justify-content-between mb-5">
               <p>If you don't have the JSON file example, you can download it here</p>
-              <a href="./example.json" download>
+              <a href="./src/example.json" download>
                 <button className="btn btn-primary">Download</button>
               </a>
             </div>

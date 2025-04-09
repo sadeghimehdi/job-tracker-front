@@ -1,0 +1,324 @@
+[
+    {
+      "id": 1,
+      "company": "Google",
+      "position": "Software Engineer",
+      "date_applied": "2024-02-01",
+      "status": "Interview Scheduled",
+      "priority": 5
+    },
+    {
+      "id": 2,
+      "company": "Microsoft",
+      "position": "Cloud Engineer",
+      "date_applied": "2024-02-05",
+      "status": "Pending",
+      "priority": 3
+    },
+    {
+      "id": 3,
+      "company": "DHL Inc",
+      "position": "Software Engineer",
+      "date_applied": "2023-02-01",
+      "status": "Interview Scheduled",
+      "priority": 5
+    },
+    {
+      "id": 4,
+      "company": "Amazon",
+      "position": "DevOps Engineer",
+      "date_applied": "2024-01-15",
+      "status": "Rejected",
+      "priority": 2
+    },
+    {
+      "id": 5,
+      "company": "Tesla",
+      "position": "Embedded Systems Engineer",
+      "date_applied": "2024-03-02",
+      "status": "Pending",
+      "priority": 4
+    },
+    {
+      "id": 6,
+      "company": "Facebook",
+      "position": "Backend Engineer",
+      "date_applied": "2024-02-18",
+      "status": "Technical Interview",
+      "priority": 5
+    },
+    {
+      "id": 7,
+      "company": "Apple",
+      "position": "iOS Developer",
+      "date_applied": "2024-01-28",
+      "status": "Pending",
+      "priority": 3
+    },
+    {
+      "id": 8,
+      "company": "Netflix",
+      "position": "Data Scientist",
+      "date_applied": "2024-03-10",
+      "status": "Application Received",
+      "priority": 4
+    },
+    {
+      "id": 9,
+      "company": "Intel",
+      "position": "Firmware Engineer",
+      "date_applied": "2024-02-22",
+      "status": "Pending",
+      "priority": 3
+    },
+    {
+      "id": 10,
+      "company": "IBM",
+      "position": "AI Researcher",
+      "date_applied": "2024-03-05",
+      "status": "Technical Interview",
+      "priority": 5
+    },
+    {
+      "id": 11,
+      "company": "Oracle",
+      "position": "Database Administrator",
+      "date_applied": "2024-02-01",
+      "status": "Interview Scheduled",
+      "priority": 4
+    },
+    {
+      "id": 12,
+      "company": "Adobe",
+      "position": "UX Designer",
+      "date_applied": "2024-02-12",
+      "status": "Pending",
+      "priority": 3
+    },
+    {
+      "id": 13,
+      "company": "Uber",
+      "position": "Full Stack Developer",
+      "date_applied": "2024-01-20",
+      "status": "Rejected",
+      "priority": 2
+    },
+    {
+      "id": 14,
+      "company": "Airbnb",
+      "position": "Security Engineer",
+      "date_applied": "2024-03-08",
+      "status": "Application Received",
+      "priority": 3
+    },
+    {
+      "id": 15,
+      "company": "Salesforce",
+      "position": "Cloud Security Engineer",
+      "date_applied": "2024-02-17",
+      "status": "Pending",
+      "priority": 4
+    },
+    {
+      "id": 16,
+      "company": "Spotify",
+      "position": "Machine Learning Engineer",
+      "date_applied": "2024-03-12",
+      "status": "Application Received",
+      "priority": 4
+    },
+    {
+      "id": 17,
+      "company": "Cisco",
+      "position": "Network Engineer",
+      "date_applied": "2024-02-21",
+      "status": "Technical Interview",
+      "priority": 5
+    },
+    {
+      "id": 18,
+      "company": "LinkedIn",
+      "position": "Data Engineer",
+      "date_applied": "2024-02-10",
+      "status": "Interview Scheduled",
+      "priority": 4
+    },
+    {
+      "id": 19,
+      "company": "Twitter",
+      "position": "Frontend Engineer",
+      "date_applied": "2024-02-25",
+      "status": "Pending",
+      "priority": 3
+    },
+    {
+      "id": 20,
+      "company": "Snapchat",
+      "position": "Android Developer",
+      "date_applied": "2024-03-01",
+      "status": "Technical Interview",
+      "priority": 5
+    },
+    {
+          "id": 21,
+          "company": "Nike",
+          "position": "Brand Manager",
+          "date_applied": "2024-02-28",
+          "status": "Interview Scheduled",
+          "priority": 5
+        },
+        {
+          "id": 22,
+          "company": "Coca-Cola",
+          "position": "Marketing Analyst",
+          "date_applied": "2024-03-05",
+          "status": "Pending",
+          "priority": 3
+        },
+        {
+          "id": 23,
+          "company": "Disney",
+          "position": "Social Media Manager",
+          "date_applied": "2024-02-15",
+          "status": "Technical Interview",
+          "priority": 4
+        },
+        {
+          "id": 24,
+          "company": "PepsiCo",
+          "position": "Content Strategist",
+          "date_applied": "2024-03-02",
+          "status": "Application Received",
+          "priority": 3
+        },
+        {
+          "id": 25,
+          "company": "L'Oréal",
+          "position": "Digital Marketing Specialist",
+          "date_applied": "2024-02-22",
+          "status": "Pending",
+          "priority": 4
+        },
+        {
+          "id": 26,
+          "company": "Samsung",
+          "position": "Market Research Analyst",
+          "date_applied": "2024-03-10",
+          "status": "Interview Scheduled",
+          "priority": 5
+        },
+        {
+          "id": 27,
+          "company": "Red Bull",
+          "position": "Event Marketing Coordinator",
+          "date_applied": "2024-02-18",
+          "status": "Technical Interview",
+          "priority": 4
+        },
+        {
+          "id": 28,
+          "company": "Netflix",
+          "position": "Creative Marketing Manager",
+          "date_applied": "2024-03-06",
+          "status": "Application Received",
+          "priority": 3
+        },
+        {
+          "id": 29,
+          "company": "Spotify",
+          "position": "Growth Marketing Manager",
+          "date_applied": "2024-02-25",
+          "status": "Pending",
+          "priority": 4
+        },
+        {
+          "id": 30,
+          "company": "Apple",
+          "position": "Advertising Specialist",
+          "date_applied": "2024-03-01",
+          "status": "Technical Interview",
+          "priority": 5
+        },
+        {
+          "id": 31,
+          "company": "Microsoft",
+          "position": "SEO Specialist",
+          "date_applied": "2024-02-28",
+          "status": "Pending",
+          "priority": 3
+        },
+        {
+          "id": 32,
+          "company": "Amazon",
+          "position": "Product Marketing Manager",
+          "date_applied": "2024-03-08",
+          "status": "Interview Scheduled",
+          "priority": 5
+        },
+        {
+          "id": 33,
+          "company": "Tesla",
+          "position": "Public Relations Manager",
+          "date_applied": "2024-02-20",
+          "status": "Rejected",
+          "priority": 2
+        },
+        {
+          "id": 34,
+          "company": "Adidas",
+          "position": "Influencer Marketing Manager",
+          "date_applied": "2024-03-07",
+          "status": "Application Received",
+          "priority": 3
+        },
+        {
+          "id": 35,
+          "company": "Meta",
+          "position": "Performance Marketing Manager",
+          "date_applied": "2024-02-14",
+          "status": "Technical Interview",
+          "priority": 5
+        },
+        {
+          "id": 36,
+          "company": "LinkedIn",
+          "position": "Marketing Automation Specialist",
+          "date_applied": "2024-02-21",
+          "status": "Pending",
+          "priority": 4
+        },
+        {
+          "id": 37,
+          "company": "Airbnb",
+          "position": "Partnership Marketing Manager",
+          "date_applied": "2024-03-03",
+          "status": "Interview Scheduled",
+          "priority": 4
+        },
+        {
+          "id": 38,
+          "company": "Uber",
+          "position": "Email Marketing Specialist",
+          "date_applied": "2024-02-17",
+          "status": "Pending",
+          "priority": 3
+        },
+        {
+          "id": 39,
+          "company": "Snapchat",
+          "position": "Brand Marketing Associate",
+          "date_applied": "2024-03-04",
+          "status": "Application Received",
+          "priority": 3
+        },
+        {
+          "id": 40,
+          "company": "Pinterest",
+          "position": "Creative Strategist",
+          "date_applied": "2024-02-27",
+          "status": "Technical Interview",
+          "priority": 5
+        }
+]
+      
+  
